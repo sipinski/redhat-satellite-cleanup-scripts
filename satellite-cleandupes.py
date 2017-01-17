@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #
-# This script connects to satellites postgres database and find registered (content) hosts that have
-# multiple registrations, and then deletes older/obsoleted registrations using the satellite API tool (hammer).
+# This script connects to satellites postgres database and finds registered (content) hosts that have
+# multiple registrations, and then deletes all but the most recent registration using the satellite API tool (hammer). 
 #
 # sipinski 20170116
 import psycopg2, sys, os
