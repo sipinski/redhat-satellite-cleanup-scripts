@@ -3,6 +3,8 @@
 # This script connects to satellites postgres database and finds registered (content) hosts that have
 # multiple registrations, and then deletes all but the most recent registration using the satellite API tool (hammer). 
 #
+# Tested with Satellite 6.1
+#
 # sipinski 20170116
 import psycopg2, sys, os
 
